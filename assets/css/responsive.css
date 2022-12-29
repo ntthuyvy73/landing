@@ -1,0 +1,93 @@
+/* Small devices (phone) */
+@media (max-width: 739px) {
+}
+
+/* phone & table */
+@media (max-width: 1024px) {
+    .app {
+        position: relative;
+    }
+
+    .mobile-show {
+        display: block;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .mobile-menu-bars {
+        display: block;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        right: 0;
+        z-index: 999;
+        background-color: var(--white);
+        width: 50%;
+        height: calc(100vh);
+        box-shadow: -10px 0 50px -10px rgba(0, 0, 0, 0.3);
+        padding: 20px 20px 0 20px;
+    }
+
+    .mobile-menu-close {
+        text-align: right;
+    }
+
+    .mobile-menu-close a {
+        font-size: 2rem;
+        color: var(--black);
+        display: block;
+    }
+
+    .mobile-menu-body .menu-list {
+        display: block;
+    }
+
+    /* .menu-list, */
+    .navbar .actions {
+        display: none;
+    }
+
+    .mobile-menu {
+        background-color: var(--white);
+    }
+
+    .mobile-menu::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    /* hero */
+    .intro {
+        text-align: center;
+    }
+
+    .intro .actions {
+        justify-content: center;
+    }
+    /* end hero */
+
+    .padding-section {
+        padding: 50px 0;
+    }
+
+    .padding-section .heading {
+        font-size: 3rem;
+    }
+
+    /* about */
+    .count-numbers {
+        display: flex;
+    }
+    /* end about */
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}

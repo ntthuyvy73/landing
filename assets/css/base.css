@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #107be9;
+    --white: #fff;
+    --black: #000;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.5;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+/* btn */
+.btn {
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-outline-primary {
+    border: 1px solid var(--primary-color);
+}
+
+/* end btn */
+
+.padding-section {
+    padding: 100px 0;
+}
+
+.padding-section .heading {
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 50%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* end animation */
